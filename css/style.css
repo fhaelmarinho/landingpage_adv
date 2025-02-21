@@ -1,0 +1,169 @@
+.content { float:left; width:92%; margin:0 4%; padding: 20px 0; }
+
+.btn-chamada       { background: transparent; color: #ec4036; text-decoration: none; border: 2px #ec4036 solid; border-radius:50px; padding: 13px 20px; display: inline-block; font-size: 20px; font-family: 'Lato', sans-serif; transition:.3s; }
+.btn-chamada:hover { background-color: #5a595c; border: 2px #5a595c solid; color: #ffffff; }
+
+/*HEADER*/
+.header          { background:#ffffff; padding:0; }
+.header .content { float:left; padding:0px 0; }
+
+.header-left                  { width:100%; float:left; }
+.header-left .header_logo     { text-align:center; margin:auto; margin-bottom:35px; float:none; width:200px; }
+.header-left .header_logo img { height:69px; }
+.header-left .title      { width:100%; margin-bottom:20px; color:#353535; font-size:25px; text-align:center; font-family: 'Lato', sans-serif; }
+.header-left .title span { color:#dbb263!important; }
+.header-left .texto      { width:100%; font-size:18px; color:#6f6f6f; text-align:center; font-family: 'Lato', sans-serif; line-height:30px; margin-bottom:15px; }
+
+.header-right            { width:100%; float:left; background-color:#353535; padding:20px 10px; }
+.header-right .title     { width:100%; float:left; font-family: 'Lato', sans-serif; font-weight:700; font-size:23pxem; color:#e3e3e3; margin-bottom:20px; border-bottom:1px #e3e3e3 solid; padding-bottom:10px; }
+
+.header-right .header-newsletter         { width:100%; float:left;  }
+.header-right .header-newsletter .campo  { width: 100%; height: 45px; float: left; font-family: 'Lato', sans-serif; font-size: 1.2em; border: 3px solid #e2e2e2; border-radius:8px; background: #ffffff; margin-bottom: 15px; outline: none; padding: 5px 15px; color:#002f5a; transition:.3s; }
+.header-right .header-newsletter .campo:focus { color:#353535!important; border:3px solid #dbb263;}
+.header-right .header-newsletter .btn         { display: block; width: 100%; padding: 20px 20px; font-family: 'Lato', sans-serif; font-size:18px; font-weight: bold; text-transform: uppercase; cursor: pointer; color: #ffffff; background: #dbb263; border-radius:8px; border:none; transition: .3s; }
+.header-right .header-newsletter .btn:hover   { background: #ef3d37; color: #ffffff;}
+.header-right .header-newsletter .btn:focus   { box-shadow: none; }
+
+
+/*servicos*/
+.section-servicos          { padding:10px 0px; background-color:#dbb263; border-top:8px #353535 solid; }
+.section-servicos .content { float:left; padding:1em 0; }
+.section-servicos .title   { width: 100%; float:left; margin-bottom:0px; font-size:2em; font-family: 'Lato', sans-serif; font-weight:700; color:#ffffff; text-align: center; padding-bottom: 10px; }
+.section-servicos .descricao     { width:100%; float:left; margin-bottom:5px; font-family: 'Lato', sans-serif; font-size:1.2em; line-height:30px; text-align:center; font-weight:400; color:#ffffff; padding-bottom:10px; margin-bottom:40px; }
+.section-servicos .row           { width:100%; float:left; }
+.section-servicos .servicos        { width: 100%; float: left; padding: 20px 0; margin-bottom: 25px; font-size: 30px; }
+.section-servicos .servicos span   { display:flex; margin:auto; margin-bottom:20px; background-color:#ffffff; width:50px; height:50px; border-radius:50px; align-items: center; align-content:center; }
+.section-servicos .servicos span i { border:none; width:20px; height:20px; margin:auto; font-size:20px; text-align:center; line-height:28px; color:#dbb263; }
+.section-servicos .servicos p      { font-size: 15px; font-weight: 400; padding: 0 15px; line-height: 22px; color: #ffffff; font-family: 'Lato', sans-serif; text-align: center;}
+
+/*Sobre*/
+.section-sobre          { padding:10px 0px; background-color:#ffffff; }
+.section-sobre .content { float:left; padding:1em 0; }
+.section-sobre .title   { width: 100%; float:left; margin-bottom:5px; font-family: 'Lato', sans-serif; font-size:1.8em; font-weight:700; color:#efb453; padding-bottom:5px; }
+.section-sobre .row     { width:100%; float:left; }
+.section-sobre .row .col-left-sobre  { width:100%; margin:auto; }
+.section-sobre .row .col-right-sobre { width:100%; margin-top:0px; background-color: #353535; padding:25px; border-radius: 15px; }
+.section-sobre .row .col-right-sobre .title { width:100%; margin-bottom:20px; color:#ffffff; font-size:22px; text-align:left; font-family: 'Lato', sans-serif; }
+.section-sobre .row .col-right-sobre p      { width:100%; margin-bottom:20px; color:#ffffff; font-size: 16px; font-family: 'Lato', sans-serif;}
+
+/*FOOTER*/
+.footer          { background-color:#dbb263; color:#353535; font-size:0.875em; font-family: 'Lato', sans-serif; }
+.footer .content { padding:3em 0em; }
+
+.row-footer           { width:100%; height:auto; float:left; margin-bottom:0.5em;  }
+
+/*info*/
+.info      { width:100%; float:left; margin-bottom: 20px; }
+.info span { width: 100%; float: left; margin-bottom: 10px; color: #ffffff; font-family: 'Lato', sans-serif; font-size: 22px; font-weight: bold; }
+.info p    { width:100%; float:left; margin-bottom: 5px; color: #353535; font-family: 'Lato', sans-serif; font-size:18px; }
+
+/*COPYRIGHT*/
+.copyright { width:100%; float:left;  padding: 1em 0; background: #353535; }
+
+.copyright .content       { padding:1em 0em; }
+.copyright .copy-text p   { margin:0; font-size: 1em; font-family: 'Lato', sans-serif; font-weight: 400; color:#ffffff; text-align: center;}
+.copyright .copy-text p a       { text-decoration: none; color:#ffffff; }
+.copyright .copy-text p a:hover { text-decoration: underline; }
+
+.copyright .col { width: 100%; float:left; margin-bottom: 10px; }
+
+/*FOOTER*/
+
+
+/*Começa o Responsivo*/
+
+/*480PX BREAKPOINT*/
+/*480 dividido por 16 = 30em*/
+@media (min-width:30em){
+
+.boxBannerTopo { padding:1em 0; }
+
+}
+
+/*600PX BREAKPOINT*/
+/*600 dividido por 16 = 37,5em*/
+@media (min-width:37em){
+
+
+} 
+
+/*768PX BREAKPOINT*/
+/*768 dividido por 16 = 48em*/
+@media (min-width:48em){
+
+.header-right  { padding:40px 20px; }
+
+
+.section-servicos             { padding:40px 0px; }
+.section-servicos .servicos   { width:32%; margin-bottom:0px; margin-right:2%; }
+.section-servicos .servicos:nth-of-type(3n+0) { margin-right:0; }
+
+.section-sobre .row .col-left-sobre  { width:42%; float:left ; margin-bottom:0; }
+.section-sobre .row .col-right-sobre { width:56%; float:right; margin-top:25px; }
+
+.info                  { width:30%; margin-right:5%; margin-bottom:0; }
+.info:nth-of-type(3n+0){ margin-right:0; border-right:0;}
+
+} 
+
+/*960PX BREAKPOINT*/
+/*960 dividido por 16 = 60em*/
+@media (min-width:60em){
+
+    .header-left         { width:60%; float:left; }
+    .header-left .title  { font-size:43px; }
+    .header-left .texto  { font-size:21px; }
+
+    .header-right        { width:40%; float:right; padding:80px 40px; }
+    .header-right .title { font-size:25px; }
+    .header-right .header-newsletter .btn { font-size:22px; }
+
+    .section-servicos              { padding:30px 0px; }
+    .section-servicos .content     { width:80%; padding:1em 0; margin:0 10%; }
+    .section-servicos .servicos p  { font-size: 18px; line-height: 30px; }
+
+    .section-sobre          { padding:0px 0px; }
+    .section-sobre .content { width:80%; padding:0; margin:0 10%; }
+    .section-sobre .row .col-right-sobre { margin-top:50px; }
+    .section-sobre .row .col-right-sobre .title { font-size:28px; }
+    .section-sobre .row .col-right-sobre p      { font-size: 16px; }
+
+}
+
+
+/*1200PX BREAKPOINT*/
+/*1200 dividido por 16 = 80em*/
+@media (min-width:75em){
+
+    .section-sobre .row .col-right-sobre        { margin-top:100px; } 
+    .section-sobre .row .col-right-sobre .title { font-size:30px; }
+    .section-sobre .row .col-right-sobre p      { font-size: 18px; }
+
+
+}
+
+/*1280PX BREAKPOINT*/
+/*1280 dividido por 16 = 80em*/
+@media (min-width:80em){
+
+    .section-sobre .row .col-left-sobre  { width:36%; }
+    .section-sobre .row .col-right-sobre { width:61%; margin-top: 130px; } 
+
+}
+
+/*1366PX BREAKPOINT*/
+/*1366 dividido por 16 = 85,375em*/
+@media (min-width:85em){
+
+  .content  { width:80%; margin:0 10%; }
+  .section-sobre .row .col-right-sobre { width:61%; margin-top: 150px; } 
+
+}
+
+/*1600PX BREAKPOINT*/
+/*1600 dividido por 16 = 100em*/
+@media (min-width:100em){
+
+
+}
+/*Fecha o Responsivo*/

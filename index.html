@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+ <head>
+	
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="Landingpage" content="Landing Page para Advogados" />
+    <meta name="description" content="Modelo de Landingpage para Advogados com HTML e CSS"/>
+    <meta name="keywords" content="Landingpage, Site para Advogados, Landingpage de Alta Conversão"/>
+    <meta name="author" content="Rafael Marinho" />
+    <meta name="copyright" content="© 2025 Rafael" />    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="robots" content="index, follow"/>
+    
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->       
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/fonts-icones.css">
+    <link rel="shortcut icon" href="img/logo/favicon.png" type="image/ico" />
+
+	<title>Landing Page para Advogados</title>
+
+ </head>
+
+<body>
+    
+<header class="header container">        
+    
+    <div class="content">
+        
+        <div class="header-left">
+           
+            <div class="header_logo">
+            
+                <a href="#" target="_blank">
+                    <img src="img/logo/logo.png" alt="Landingpage Online" title="Landingpage Online - Loop Nerd"/>
+                </a>
+
+            </div>
+
+            <h1 class="title"><span>Agendamento</span> com<br> Advogado especialista</h1>
+            
+            <p class="texto">
+                Preencha suas informações no formulário ao lado<br> que entraremos em contato em até 24H Úteis.
+            </p>
+
+            <p class="texto">Caso necessário solicitaremos mais informações pelo e-mail informado.</p>
+        
+        </div><!--left-->
+        
+        <div class="header-right">
+            
+            <h2 class="title">Entraremos em contato através dos dados informado até 24s Úteis.</h2>     
+            
+            <form class="header-newsletter" action="#" method="post" id="meuFormulario"> 
+    
+              <input class="campo" name="nome" placeholder="Nome" required="" autocomplete="off">
+              <input class="campo" name="email" placeholder="E-mail" required="" autocomplete="off">
+              <input class="campo" name="telefone" placeholder="Telefone" required="" autocomplete="off">
+
+              <button class="btn">Agendar Reunião</button>
+
+            </form>
+
+            <script>
+                document.getElementById('meuFormulario').addEventListener('submit', function(event) {
+                    var nomeInput = document.querySelector('input[name="nome"]');
+                    var emailInput = document.querySelector('input[name="email"]');
+                    var telefoneInput = document.querySelector('input[name="telefone"]');
+            
+                    if (nomeInput.value.trim() === '') {
+                        alert('O campo de nome é obrigatório.');
+                        event.preventDefault(); // Impede o envio do formulário
+                        return; // Interrompe a execução para evitar múltiplos alertas
+                    }
+            
+                    if (emailInput.value.trim() === '') {
+                        alert('O campo de e-mail é obrigatório.');
+                        event.preventDefault(); // Impede o envio do formulário
+                        return; // Interrompe a execução para evitar múltiplos alertas
+                    }
+            
+                    if (telefoneInput.value.trim() === '') {
+                        alert('O campo de telefone é obrigatório.');
+                        event.preventDefault(); // Impede o envio do formulário
+                        return; // Interrompe a execução para evitar múltiplos alertas
+                    }
+                });
+            </script>
+
+        </div><!--right-->
+
+    
+    </div>
+
+</header>
+
+<main class="main_content container">
+
+    <section class="section-servicos container">
+        
+        <div class="content">
+            
+            <h2 class="title">Serviços</h2>
+            <p class="descricao">Como podemos lhe ajudar?</p>
+
+            <div class="row">
+                            
+                <article class="servicos">
+
+                    <span class="icone"> <i class="icon icon-balance-scale"></i> </span>
+                    <p>Direito previdenciário.</p>
+
+                </article>
+
+                
+                <article class="servicos">
+
+                    <span class="icone"> <i class="icon icon-balance-scale"></i> </span>
+                    <p>Direito da família.</p>
+                    
+                </article>
+
+                <article class="servicos">
+
+                    <span class="icone"> <i class="icon icon-balance-scale"></i> </span>
+                    <p>Direito ambiental.</p>
+                    
+                </article>
+
+                <article class="servicos">
+
+                    <span class="icone"> <i class="icon icon-balance-scale"></i> </span>
+                    <p>Direito penal.</p>
+                    
+                </article>
+
+                <article class="servicos">
+
+                    <span class="icone"> <i class="icon icon-balance-scale"></i> </span>
+                    <p>Direito do Entretenimento.</p>
+                    
+                </article>
+
+                <article class="servicos">
+
+                    <span class="icone"> <i class="icon icon-balance-scale"></i> </span>
+                    <p>Direito Securitário.</p>
+                    
+                </article>
+
+                <article class="servicos">
+
+                    <span class="icone"> <i class="icon icon-balance-scale"></i> </span>
+                    <p>Direito imobiliário.</p>
+                    
+                </article>
+
+                <article class="servicos">
+
+                    <span class="icone"> <i class="icon icon-balance-scale"></i> </span>
+                    <p>Direito Trabalhista.</p>
+                    
+                </article>
+
+                <article class="servicos">
+
+                    <span class="icone"> <i class="icon icon-balance-scale"></i> </span>
+                    <p>Direito Consumidor.</p>
+                    
+                </article>
+
+           </div><!--row-->
+
+
+        <div class="clear"></div>
+        </div>
+    
+    </section><!--Serviços-->
+
+    <section class="section-sobre container">
+        
+        <div class="content">
+                        
+            <div class="row">
+                
+                <div class="col-left-sobre">
+                    <img src="img/sections/advogado.png" alt="Advogado" title="Advogado"> 
+                </div>
+
+                <div class="col-right-sobre"> 
+                   
+                    <h2 class="title">Somos especialistas em <b>Direito "XXX"</b></h2>
+                    <p>Aqui no meu escritório damos a máxima importância para a qualidade do nosso atendimento e manter o sigilo das sua informações.</p>
+                    <p>Por isso só podimos informações de contato e o restante do caso discutimos em uma reunião presencial ou online particular.</p>
+
+                </div> 
+
+            </div><!--row-->
+
+
+        <div class="clear"></div>
+        </div>
+    
+    </section><!--Sobre-->
+
+</main>
+
+<footer class="footer container">
+    
+    <div class="content">
+
+        <div class="row-footer">
+            
+            <div class="footer-info">
+            
+                <div class="info">
+                  
+                  <span>Endereço</span>  
+                  <p>Av. Texas - Sala 1.000 - Ed. Gonden Gate.</p>
+                  <p>Bairro: Alphaville - Santana de Parnaíba-SP.</p>
+                  <p>CEP 000-00000</p>
+                
+                </div>
+                
+                <div class="info">
+                
+                  <span>Telefones</span>  
+                  <p><i class="icon icon-phone"></i> (21) 90000-0000</p>
+                  <p><i class="icon icon-whatsapp-1"></i> (21) 90000-0000</p>
+                
+                </div>
+                
+                <div class="info">
+
+                  <span>Horário de Atendimento</span>
+                  <p>Segunda a sexta das 09h às 18h.</p>
+                  <p>Sábados das 08h às 12h</p>
+                
+                </div>
+            
+            </div><!--Footer-info-->
+
+        </div><!--Row Footer-->        
+
+        <div class="clear"></div>
+    
+    </div><!--Content-->
+      
+    <div class="copyright">
+      
+      <div class="content">
+                
+          <div class="col">
+            <div class="copy-text">
+              <p>Copyright &copy; 2025 - Todos os Direitos Reservados.</p>
+            </div>
+          </div>
+              
+      </div><!--content-->
+
+    </div><!--copyright-->    
+
+</footer>
+
+</body>
+</html>
